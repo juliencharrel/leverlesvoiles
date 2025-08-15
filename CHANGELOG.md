@@ -2,14 +2,14 @@
 
 ## [1.0.0] - 2024-12-19
 
-### 🎉 Nouveau site web complet
+### 🎉 Nouveau site web créatif pour association d'art vivant
 
 #### ✨ Fonctionnalités ajoutées
-- **Page d'accueil moderne** avec design maritime élégant
-- **Page de services** détaillée avec 3 formules de croisières
+- **Page d'accueil créative** avec design artistique et parallaxes
+- **Design coloré et vibrant** avec palette rose/violet/indigo
 - **Navigation responsive** avec animations fluides
 - **Design mobile-first** optimisé pour tous les appareils
-- **Animations Framer Motion** pour une expérience utilisateur premium
+- **Animations Framer Motion** avec effets parallaxe
 - **SEO optimisé** avec métadonnées complètes
 
 #### 🛠️ Technologies utilisées
@@ -25,10 +25,10 @@
 - **Desktop** (> 1024px) - Design complet avec toutes les fonctionnalités
 
 #### 🎨 Design System
-- **Couleurs** : Palette bleue maritime (blue-600, blue-50, etc.)
+- **Couleurs** : Palette artistique rose/violet/indigo avec transparences
 - **Typographie** : Inter (Google Fonts) pour une lisibilité optimale
 - **Espacement** : Système cohérent avec Tailwind CSS
-- **Animations** : Transitions fluides et micro-interactions
+- **Animations** : Parallaxes, transitions fluides et micro-interactions
 
 #### 🔍 SEO & Performance
 - **Métadonnées** optimisées pour chaque page
@@ -41,18 +41,13 @@
 
 #### 📄 Pages créées
 1. **Page d'accueil** (`/`)
-   - Hero section avec call-to-action
-   - Section "Pourquoi nous choisir"
-   - Section "À propos" avec statistiques
-   - Section contact
+   - Hero section avec parallaxe et animations
+   - Section "Qui sommes-nous" avec mission et dialectique
+   - Section "Activités" (Ateliers, Résidences, Conférences, Éducation)
+   - Section "La Dialectique du Rôle" (nouvelle section)
+   - Section "Rejoignez-nous" avec appel à collaboration
+   - Section contact (email uniquement)
    - Footer complet
-
-2. **Page Services** (`/services`)
-   - 3 formules de croisières détaillées
-   - Prix et caractéristiques
-   - Conditions de réservation
-   - Équipement fourni
-   - Call-to-action
 
 #### 🚀 Configuration déploiement
 - **Vercel** configuré avec `vercel.json`
@@ -76,11 +71,30 @@
 
 ### 📊 Métriques de performance
 - **First Load JS** : 99.5 kB (partagé)
-- **Page d'accueil** : 2.44 kB
-- **Page services** : 2.79 kB
-- **Build time** : ~1 seconde
+- **Page d'accueil** : 48.5 kB (avec animations et nouveau contenu)
+- **Build time** : ~2 secondes
 - **Lighthouse Score** : Optimisé pour tous les critères
 
 ---
 
-**Lever les Voiles** - Un nouveau site web moderne et performant pour vos croisières d'exception.
+**Lever les Voiles** - Un nouveau site web créatif et performant pour promouvoir l'art vivant et l'authenticité.
+
+## [1.1.0] - 2024-12-19
+
+### 🔄 Mises à jour du contenu
+
+#### ✨ Nouvelles fonctionnalités
+- **Section "La Dialectique du Rôle"** ajoutée pour explorer la relation entre jeu scénique et réalité quotidienne
+- **Contenu enrichi** sur la dialectique entre jouer un rôle sur scène et avoir un travail dans la vie
+- **Suppression du téléphone** - contact uniquement par email pour simplifier
+
+#### 📝 Contenu ajouté
+- Réflexion sur l'authenticité dans les deux contextes (scénique et professionnel)
+- Questionnement sur la frontière entre performance et authenticité
+- Exploration de comment l'art peut enrichir la vie professionnelle
+- Analyse de comment le travail quotidien peut enrichir l'expression artistique
+
+#### 🎯 Focus thématique
+- **Dialectique du rôle** : Comment jouer un personnage nous aide à mieux nous comprendre
+- **Authenticité professionnelle** : Comment l'art peut nous aider à être plus authentiques au travail
+- **Enrichissement mutuel** : Comment ces deux mondes s'influencent et s'enrichissent

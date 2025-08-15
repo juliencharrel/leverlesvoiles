@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Lever les Voiles - Croisières et Aventures Maritimes",
-  description: "Découvrez l&apos;aventure maritime avec nos croisières exceptionnelles. Naviguez vers des destinations de rêve et créez des souvenirs inoubliables avec Lever les Voiles.",
-  keywords: "croisière, voilier, navigation, mer, aventure maritime, location voilier, croisière sur mesure",
+  title: "Lever les Voiles - Art Vivant et Authenticité",
+  description: "Association dédiée à la promotion, la production et la diffusion de spectacles vivants et de diverses formes d&apos;art. Promouvoir l&apos;authenticité et l&apos;ouverture dans les relations sociales.",
+  keywords: "art vivant, spectacle vivant, création artistique, association culturelle, authenticité, arts, culture, performance",
   authors: [{ name: "Lever les Voiles" }],
   creator: "Lever les Voiles",
   publisher: "Lever les Voiles",
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL('https://leverlesvoiles.org'),
   openGraph: {
-    title: "Lever les Voiles - Croisières et Aventures Maritimes",
-    description: "Découvrez l&apos;aventure maritime avec nos croisières exceptionnelles. Naviguez vers des destinations de rêve et créez des souvenirs inoubliables.",
+    title: "Lever les Voiles - Art Vivant et Authenticité",
+    description: "Association dédiée à la promotion, la production et la diffusion de spectacles vivants et de diverses formes d&apos;art.",
     url: 'https://leverlesvoiles.org',
     siteName: 'Lever les Voiles',
     locale: 'fr_FR',
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: "Lever les Voiles - Croisières et Aventures Maritimes",
-    description: "Découvrez l&apos;aventure maritime avec nos croisières exceptionnelles.",
+    title: "Lever les Voiles - Art Vivant et Authenticité",
+    description: "Association dédiée à la promotion, la production et la diffusion de spectacles vivants.",
   },
   robots: {
     index: true,
@@ -53,7 +53,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+        <Analytics />  
+      </body>
+      
     </html>
   );
 }

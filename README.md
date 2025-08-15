@@ -1,6 +1,6 @@
 # Lever les Voiles - Site Web
 
-Un site web moderne et élégant pour l'entreprise de croisières "Lever les Voiles", construit avec Next.js 14, TypeScript, Tailwind CSS et Framer Motion.
+Un site web moderne et créatif pour l'association d'art vivant "Lever les Voiles", construit avec Next.js 15, TypeScript, Tailwind CSS et Framer Motion.
 
 ## 🚀 Technologies utilisées
 
@@ -13,11 +13,11 @@ Un site web moderne et élégant pour l'entreprise de croisières "Lever les Voi
 
 ## ✨ Fonctionnalités
 
-- 🎨 Design moderne et responsive
-- 🌊 Thème maritime élégant
+- 🎨 Design créatif et artistique
+- 🌈 Thème coloré et vibrant
 - 📱 Optimisé mobile-first
 - ⚡ Performance optimisée
-- 🎭 Animations fluides
+- 🎭 Animations fluides et parallaxes
 - 🔍 SEO optimisé
 - 🌐 Support multilingue (français)
 
@@ -29,9 +29,10 @@ src/
 │   ├── globals.css          # Styles globaux
 │   ├── layout.tsx           # Layout principal
 │   ├── page.tsx             # Page d'accueil
-│   └── services/
-│       └── page.tsx         # Page des services
-├── components/              # Composants réutilisables (à venir)
+│   ├── sitemap.ts           # Sitemap dynamique
+│   └── robots.ts            # Robots.txt dynamique
+├── components/
+│   └── ClientOnly.tsx       # Composant pour gérer l'hydratation
 └── lib/                     # Utilitaires (à venir)
 ```
 
@@ -84,9 +85,9 @@ src/
 
 ### Couleurs
 Les couleurs principales sont définies dans Tailwind CSS :
-- Bleu principal : `blue-600`
-- Bleu clair : `blue-50`, `blue-100`
-- Gris : `gray-900`, `gray-600`, `gray-400`
+- Rose/Violet : `pink-400`, `purple-500`, `indigo-500`
+- Dégradés : `from-pink-500 to-purple-600`
+- Noir/Transparence : `black/20`, `white/10`
 
 ### Typographie
 - Police principale : Inter (Google Fonts)
@@ -96,6 +97,7 @@ Les couleurs principales sont définies dans Tailwind CSS :
 - Utilisation de Framer Motion pour les animations
 - Animations d'entrée et de scroll
 - Transitions fluides entre les pages
+- Gestion de l'hydratation avec ClientOnly
 
 ## 📱 Responsive Design
 
@@ -138,4 +140,4 @@ Pour toute question concernant le site web :
 
 ---
 
-**Lever les Voiles** - Votre partenaire pour des croisières inoubliables depuis plus de 10 ans.
+**Lever les Voiles** - Votre partenaire pour l'art vivant et l'authenticité depuis plus de 10 ans.
