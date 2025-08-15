@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Lever les Voiles - Site Web
 
-## Getting Started
+Un site web moderne et élégant pour l'entreprise de croisières "Lever les Voiles", construit avec Next.js 14, TypeScript, Tailwind CSS et Framer Motion.
 
-First, run the development server:
+## 🚀 Technologies utilisées
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Next.js 14** - Framework React avec App Router
+- **TypeScript** - Typage statique
+- **Tailwind CSS** - Framework CSS utilitaire
+- **Framer Motion** - Animations fluides
+- **Lucide React** - Icônes modernes
+- **Vercel** - Déploiement et hosting
+
+## ✨ Fonctionnalités
+
+- 🎨 Design moderne et responsive
+- 🌊 Thème maritime élégant
+- 📱 Optimisé mobile-first
+- ⚡ Performance optimisée
+- 🎭 Animations fluides
+- 🔍 SEO optimisé
+- 🌐 Support multilingue (français)
+
+## 📁 Structure du projet
+
+```
+src/
+├── app/
+│   ├── globals.css          # Styles globaux
+│   ├── layout.tsx           # Layout principal
+│   ├── page.tsx             # Page d'accueil
+│   └── services/
+│       └── page.tsx         # Page des services
+├── components/              # Composants réutilisables (à venir)
+└── lib/                     # Utilitaires (à venir)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Installation et développement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Cloner le projet**
+   ```bash
+   git clone [url-du-repo]
+   cd leverlesvoiles
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Installer les dépendances**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Lancer le serveur de développement**
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Ouvrir dans le navigateur**
+   ```
+   http://localhost:3000
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 Scripts disponibles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `npm run dev` - Lance le serveur de développement
+- `npm run build` - Construit l'application pour la production
+- `npm run start` - Lance l'application en mode production
+- `npm run lint` - Vérifie le code avec ESLint
 
-## Deploy on Vercel
+## 🚀 Déploiement sur Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Connecter le repository à Vercel**
+   - Allez sur [vercel.com](https://vercel.com)
+   - Importez votre repository GitHub
+   - Vercel détectera automatiquement Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Configuration automatique**
+   - Le fichier `vercel.json` configure automatiquement le déploiement
+   - Les variables d'environnement peuvent être ajoutées dans l'interface Vercel
+
+3. **Déploiement automatique**
+   - Chaque push sur la branche `main` déclenche un nouveau déploiement
+   - Les previews sont créées pour chaque pull request
+
+## 🎨 Personnalisation
+
+### Couleurs
+Les couleurs principales sont définies dans Tailwind CSS :
+- Bleu principal : `blue-600`
+- Bleu clair : `blue-50`, `blue-100`
+- Gris : `gray-900`, `gray-600`, `gray-400`
+
+### Typographie
+- Police principale : Inter (Google Fonts)
+- Tailles responsives pour tous les écrans
+
+### Animations
+- Utilisation de Framer Motion pour les animations
+- Animations d'entrée et de scroll
+- Transitions fluides entre les pages
+
+## 📱 Responsive Design
+
+Le site est optimisé pour tous les appareils :
+- **Mobile** : < 768px
+- **Tablet** : 768px - 1024px
+- **Desktop** : > 1024px
+
+## 🔧 Configuration SEO
+
+- Métadonnées optimisées pour chaque page
+- Open Graph tags pour les réseaux sociaux
+- Twitter Cards configurées
+- Robots.txt et sitemap (à ajouter)
+
+## 📈 Performance
+
+- Images optimisées avec Next.js Image
+- Code splitting automatique
+- Lazy loading des composants
+- Compression des assets
+
+## 🤝 Contribution
+
+1. Fork le projet
+2. Créez une branche pour votre fonctionnalité
+3. Committez vos changements
+4. Poussez vers la branche
+5. Ouvrez une Pull Request
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📞 Contact
+
+Pour toute question concernant le site web :
+- Email : contact@leverlesvoiles.org
+- Téléphone : +33 1 23 45 67 89
+
+---
+
+**Lever les Voiles** - Votre partenaire pour des croisières inoubliables depuis plus de 10 ans.
